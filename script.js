@@ -1,5 +1,6 @@
 var switchDeg = false;
-//document.getElementById('weatherHold').style.visibility = 'hidden';
+// document.getElementById('weatherHold').style.visibility = 'hidden';
+
 
 //call on page load finish
 $(document).ready(function(){
@@ -35,6 +36,8 @@ function getWeather(lat,lon){
     success(response){
       if (switchDeg){
         $('#weatherContent').html('It\'s ' +Math.round(response.main.temp*1.8+32)+ ' degrees fahrenheit');
+        // $('#weatherHold').css({'background-color':'red'});
+        // document.getElementById('weatherHold').style.backgroundColor = 'red';
       } else {
         $('#weatherContent').html('It\'s ' +Math.round(response.main.temp)+ ' degrees celsius');
       }
