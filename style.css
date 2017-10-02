@@ -1,0 +1,27 @@
+/*implement these into the js before completion?*/
+
+body{
+    background-color:#000;
+}
+
+#weatherHold{
+    text-align: center;
+}
+
+#weatherContent{
+    color: #fff;
+}
+
+#imageHold{
+    width: 7rem;
+    height: 4rem;
+    margin: 0 auto;
+}
+
+.jumbotron {
+    background-color: hsla(180,100%,50%,0.1);
+}
+
+#author {
+    float: left;
+}
