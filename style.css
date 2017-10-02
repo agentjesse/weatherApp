@@ -1,27 +1,31 @@
 /*implement these into the js before completion?*/
+html{
+  font-size: 16px;
+}
 
 body{
-    background-color:#000;
+  background-color:#000;
 }
 
 #weatherHold{
-    text-align: center;
+  margin-top: 3rem;
+  text-align: center;
 }
 
 #weatherContent{
-    color: #fff;
+  color: #fff;
 }
 
 #imageHold{
-    width: 12rem;
-    height: 7.5rem;
-    margin: 0 auto;
+  width: 9rem;
+  height: 4.5rem;
+  margin: 0 auto;
 }
 
 .jumbotron {
-    background-color: hsla(180,100%,50%,0.1);
+  background-color: hsla(180,100%,50%,0.1);
 }
 
 #author {
-    float: left;
+  float: left;
 }
