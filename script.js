@@ -2,8 +2,10 @@ var switchDeg = false;
 // document.getElementById('weatherHold').style.visibility = 'hidden';
 
 
-//call on page load finish
-$(document).ready(function(){
+//starting call
+window.addEventListener('DOMContentLoaded', init);
+
+function init(){
   //get current position from navigator object, follow documentation to use it.
   navigator.geolocation.getCurrentPosition(function(position) {
     //call getWeather function and pass it the coordinates
@@ -21,7 +23,7 @@ $(document).ready(function(){
 
   });
 
-});
+}
 
 //function that gets and sets weather info from API
 function getWeather(lat,lon){
